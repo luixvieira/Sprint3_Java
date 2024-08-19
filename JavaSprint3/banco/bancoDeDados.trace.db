@@ -1,0 +1,102 @@
+2024-08-18 08:44:48.969993-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+INSERT INTO clientes (nome, idade) VALUES (?, ?) [42104-232]
+2024-08-18 08:44:49.008001-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM clientes WHERE id = ? [42104-232]
+2024-08-18 08:44:49.032005-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+UPDATE clientes SET nome = ?, idade = ? WHERE id = ? [42104-232]
+2024-08-18 08:44:49.173038-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+DELETE FROM clientes WHERE id = ? [42104-232]
+2024-08-18 09:08:49.135423-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found (this database is empty); SQL statement:
+INSERT INTO veiculos (placa, modelo) VALUES (?, ?) [42104-232]
+2024-08-18 09:08:49.165431-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found (this database is empty); SQL statement:
+SELECT * FROM veiculos WHERE id = ? [42104-232]
+2024-08-18 09:08:49.207439-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found (this database is empty); SQL statement:
+UPDATE veiculos SET placa = ?, modelo = ? WHERE id = ? [42104-232]
+2024-08-18 09:08:49.237445-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found (this database is empty); SQL statement:
+DELETE FROM veiculos WHERE id = ? [42104-232]
+2024-08-18 09:09:59.308910-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DIAGNOSTICOS" not found (this database is empty); SQL statement:
+INSERT INTO diagnosticos (descricao, recomendacao) VALUES (?, ?) [42104-232]
+2024-08-18 09:09:59.378926-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DIAGNOSTICOS" not found (this database is empty); SQL statement:
+SELECT * FROM diagnosticos WHERE id = ? [42104-232]
+2024-08-18 09:09:59.415935-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DIAGNOSTICOS" not found (this database is empty); SQL statement:
+UPDATE diagnosticos SET descricao = ?, recomendacao = ? WHERE id = ? [42104-232]
+2024-08-18 09:09:59.441960-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DIAGNOSTICOS" not found (this database is empty); SQL statement:
+DELETE FROM diagnosticos WHERE id = ? [42104-232]
+2024-08-18 09:10:20.761533-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PECAS" not found (this database is empty); SQL statement:
+INSERT INTO pecas (nomePeca, fabricante, preco) VALUES (?, ?, ?) [42104-232]
+2024-08-18 09:10:20.800541-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PECAS" not found (this database is empty); SQL statement:
+SELECT * FROM pecas WHERE id = ? [42104-232]
+2024-08-18 09:10:20.825548-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PECAS" not found (this database is empty); SQL statement:
+UPDATE pecas SET nomePeca = ?, fabricante = ?, preco = ? WHERE id = ? [42104-232]
+2024-08-18 09:10:20.863556-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PECAS" not found (this database is empty); SQL statement:
+DELETE FROM pecas WHERE id = ? [42104-232]
+2024-08-18 09:10:42.931290-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRONTUARIOS" not found (this database is empty); SQL statement:
+INSERT INTO prontuarios (historico, dataUltimaManutencao) VALUES (?, ?) [42104-232]
+2024-08-18 09:10:42.970300-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRONTUARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM prontuarios WHERE id = ? [42104-232]
+2024-08-18 09:10:43.022310-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRONTUARIOS" not found (this database is empty); SQL statement:
+UPDATE prontuarios SET historico = ?, dataUltimaManutencao = ? WHERE id = ? [42104-232]
+2024-08-18 09:10:43.046316-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRONTUARIOS" not found (this database is empty); SQL statement:
+DELETE FROM prontuarios WHERE id = ? [42104-232]
+2024-08-18 09:11:06.775065-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILIADOS" not found (this database is empty); SQL statement:
+INSERT INTO filiados (nome, endereco, telefone) VALUES (?, ?, ?) [42104-232]
+2024-08-18 09:11:06.831078-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILIADOS" not found (this database is empty); SQL statement:
+SELECT * FROM filiados WHERE id = ? [42104-232]
+2024-08-18 09:11:06.856084-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILIADOS" not found (this database is empty); SQL statement:
+UPDATE filiados SET nome = ?, endereco = ?, telefone = ? WHERE id = ? [42104-232]
+2024-08-18 09:11:06.876088-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILIADOS" not found (this database is empty); SQL statement:
+DELETE FROM filiados WHERE id = ? [42104-232]
+2024-08-18 09:11:32.889258-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+INSERT INTO mecanicos (nome, especialidade, experiencia) VALUES (?, ?, ?) [42104-232]
+2024-08-18 09:11:32.942270-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+SELECT * FROM mecanicos WHERE id = ? [42104-232]
+2024-08-18 09:11:32.964275-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+UPDATE mecanicos SET nome = ?, especialidade = ?, experiencia = ? WHERE id = ? [42104-232]
+2024-08-18 09:11:33.005285-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+DELETE FROM mecanicos WHERE id = ? [42104-232]
+2024-08-18 09:16:53.408971-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+INSERT INTO mecanicos (nome, especialidade, experiencia) VALUES (?, ?, ?) [42104-232]
+2024-08-18 09:16:53.446980-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+SELECT * FROM mecanicos WHERE id = ? [42104-232]
+2024-08-18 09:16:53.485989-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+UPDATE mecanicos SET nome = ?, especialidade = ?, experiencia = ? WHERE id = ? [42104-232]
+2024-08-18 09:16:53.508994-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MECANICOS" not found (this database is empty); SQL statement:
+DELETE FROM mecanicos WHERE id = ? [42104-232]
+2024-08-18 09:24:07.940045-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRONTUARIOS" not found (this database is empty); SQL statement:
+INSERT INTO prontuarios (historico, dataUltimaManutencao) VALUES (?, ?) [42104-232]
+2024-08-18 09:36:43.167337-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILIADOS" not found; SQL statement:
+UPDATE filiados SET nome = ?, endereco = ?, telefone = ? WHERE id = ? [42102-232]
