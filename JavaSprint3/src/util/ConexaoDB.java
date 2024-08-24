@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class ConexaoDB {
 
-    // Configurações do banco de dados H2
-    private static final String URL = "jdbc:h2:./banco/bancoDeDados";
-    private static final String USER = "sa"; // Login padrão para H2
-    private static final String PASSWORD = ""; // Senha vazia para H2
+    // Configurações do banco de dados Oracle
+    private static final String URL = "jdbc:oracle:thin:@//oracle.fiap.com.br:1521/ORCL";
+    private static final String USER = "rm558935";
+    private static final String PASSWORD = "310805";
 
     // Método para obter a conexão
     public static Connection getConnection() {
